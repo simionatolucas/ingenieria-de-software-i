@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+    <link rel="stylesheet" href="todo_style.css">
+</head>
+<body>
+    <main class="todo-container">
+        <section class="todo-app">
+            <header class="todo-header">
+                <div>
+                    <h1>Mis tareas</h1>
+                    <p>Organizá tu día</p>
+                </div>
+                <button id="logout-btn" class="logout-btn">Cerrar sesión</button>
+            </header>
+            <form id="todo-form" class="todo-form">
+                <input type="text" id="todo-input" placeholder="¿Qué tenés que hacer hoy?" autocomplete="off">
+                <button type="submit">Agregar</button>
+            </form>
+            <p id="todo-error"></p>
+            <ul id="todo-list"></ul>
+        </section>
+    </main>
+    <script src="todo.js"></script>
+</body>
+</html>
